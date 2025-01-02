@@ -1,0 +1,21 @@
+.link {
+  box-sizing: border-box;
+  font-size: 1rem;
+  max-width: 100%;
+  width: 100%;
+  border-radius: 3px;
+  padding: .2rem .5rem;
+}
+
+.disabled {
+  color: color-mix(in srgb, var(--accent-400), white 10%);
+  pointer-events: none;
+}
+
+.selected {
+  background-color: var(--accent-400);
+}
+
+.selected:hover {
+  color: var(--foreground-color);
+}

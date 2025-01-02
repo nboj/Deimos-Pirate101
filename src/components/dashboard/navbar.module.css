@@ -1,0 +1,67 @@
+nav {
+  background: var(--accent-600);
+  position: sticky;
+  top: 0;
+  width: 10rem;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+  padding: 1rem 1rem;
+  z-index: 1000;
+}
+
+.inner_container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+
+.item_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_container {
+  display: flex;
+  gap: .5rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_container:hover .title {
+  color: var(--foreground-color);
+}
+
+.title {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.logo {
+  aspect-ratio: 1/1;
+  width: 1.7rem;
+  height: 100%;
+  object-fit: contain;
+}
+
+.attach_button {
+  display: flex;
+  gap: .5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.syringe {
+  font-size: 1.2rem;
+}
